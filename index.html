@@ -3,14 +3,26 @@
 
 <head>
   <style>
-    .banner-title {
-      font-size: clamp(32px, 8vw, 80px);
+  @media (max-width: 768px) {
+    .title-subtext {
+      font-size: 12px !important;
     }
 
-    .title-subtext {
-      font-size: clamp(10px, 2.5vw, 15px);
+    .banner-title {
+      font-size: 36px !important;
     }
-  </style>
+  }
+
+  @media (max-width: 480px) {
+    .title-subtext {
+      font-size: 10px !important;
+    }
+
+    .banner-title {
+      font-size: 28px !important;
+    }
+  }
+</style>
   <title>Saad Usmani - ML/Data Science</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -264,8 +276,8 @@
               </div>
               <div class="col-lg-6">
                 <div class="banner-content my-1 pt-1 my-lg-5 pt-lg-5" data-aos="fade-in">
-                  <span class="text-muted text-uppercase">Machine Learning Engineer / Data Scientist</span>
-                  <h1 class="banner-title display-xl lh-1 txt-fx slide-up">Saad Usmani</h1>
+                  <span style="font-size: 15px;" class="text-muted text-uppercase">Machine Learning Engineer / Data Scientist</span>
+                  <h1 style="font-size: 80px;" class="banner-title display-xl lh-1 txt-fx slide-up">Saad Usmani</h1>
                 </div>
               </div>
             </div>
