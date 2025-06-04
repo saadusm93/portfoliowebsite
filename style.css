@@ -27,7 +27,7 @@ CSS STRUCTURE:
   --heading-font-weight: 700;
   --heading-color: var(--bs-dark);
   --heading-line-height: 1.2;
-
+  --bs-gutter-x: 2rem; 
   --swiper-theme-color: var(--bs-primary);
 
   --custom-easing: cubic-bezier(.17, .67, .83, .67);
