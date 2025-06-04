@@ -27,7 +27,6 @@ CSS STRUCTURE:
   --heading-font-weight: 700;
   --heading-color: var(--bs-dark);
   --heading-line-height: 1.2;
-  --bs-gutter-x: 2rem; 
   --swiper-theme-color: var(--bs-primary);
 
   --custom-easing: cubic-bezier(.17, .67, .83, .67);
@@ -253,7 +252,7 @@ a {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1440px;
+    max-width: 1240px;
   }
 }
 
